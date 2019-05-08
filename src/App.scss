@@ -1,0 +1,57 @@
+
+$font-family-body: "Verdana", sans-serif;
+
+$color-yellow: #FECE00;
+$color-yellow-highlight: #FFFD6F;
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: $font-family-body;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.app-container {
+  width: 80%;
+}
+
+.app-logo {
+  margin: 0;
+  font-size: 20px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-yellow;
+  border-right:  3px solid black;
+  align-items: center;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.40);
+  border-bottom:  3px solid black;
+  padding: 1rem;
+  border-bottom-right-radius: 15px;
+}
+
+.app-meta {
+  font-size: 12px;
+}
+
+.app-sidebar {
+  width: 15%;
+  margin-top: -3px;
+  box-shadow: 0px 6px 6px rgba(0,0,0,0.30);
+  background-color: $color-yellow;
+  padding: 1rem;
+  border-bottom-right-radius: 15px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
